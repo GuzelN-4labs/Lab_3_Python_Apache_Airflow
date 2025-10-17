@@ -155,7 +155,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-
+'''
 # Функция для агрегации данных из всех трех файлов
 def aggregate_data():
     # Загрузка данных из файлов
@@ -193,3 +193,5 @@ task_aggregate_data = PythonOperator(task_id = 'aggregate_data', python_callable
 
 # Установка зависимостей между задачами
 task_generate_all_data >> task_aggregate_data
+
+'''
