@@ -89,7 +89,7 @@ def generate_comments_w_likes(posts_data,likes_data):
         likes_qty = df_assist[df_assist['post_id'] ==post_id]['user_id'].nunique()
         likes_list = df_assist[df_assist['post_id'] ==post_id]['user_id'].unique()
         comments_for_post = set()
-        while len(comments_for_post) < likes_qty*0.7:
+        while len(comments_for_post) < likes_qty*0.15:
             comments_for_post.add(random.choice(likes_list))
 
         for user_id in comments_for_post:
