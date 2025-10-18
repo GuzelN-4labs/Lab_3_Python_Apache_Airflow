@@ -1,5 +1,8 @@
 # Lab_3_Python_Apache_Airflow
 
-**Студент** Нургалеева Гузель
-**Вариант задания** №16
-![image]email.png
+<br>**Студент** Нургалеева Гузель
+<br>**Вариант задания** №16
+
+![image]https://github.com/GuzelN-4labs/Lab_3_Python_Apache_Airflow/blob/main/img/email.png
+
+
