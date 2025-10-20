@@ -38,10 +38,10 @@
 ### Общая схема системы
 
 
-<img width="600" height="502" alt="image" src="https://github.com/user-attachments/assets/cd04b347-37a9-42a3-ae3b-52703e0c8d3b" />
+![image](img/Архитектура решения.drawio.png)
 
 <br>
-<img width="600" height="502" alt="image" src="https://github.com/user-attachments/assets/8eba2b7a-f0da-4313-a485-361a46952d66" />
+![image](img/ETL процесс.drawio.png)
 
 
 ```
