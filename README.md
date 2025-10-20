@@ -38,51 +38,14 @@
 ### Общая схема системы
 
 
-![image](img/Архитектура решения.drawio.png)
+![image](img/architecture.drawio.png)
 
 <br>
-![image](img/ETL процесс.drawio.png)
-
-
-```
-
 ### ETL-процесс
 
-```
-                    EXTRACT PHASE (Параллельно)
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│extract_blog_posts  │  │extract_likes |  │extract_comments_w_likes│
-│(blog_posts.csv) |  │ (likess.xlsx)   │  │(comments_w_likes│.json)│
-└─────────────────┘  └─────────────────┘  └─────────────────┘
-         │                     │                     │
-         └─────────────────────┼─────────────────────┘
-                               │
-                    TRANSFORM PHASE
-                ┌─────────────────┐
-                │ transform_data  │
-                │ (JOIN, GROUP BY,│
-                │ CALCULATE)      │
-                └─────────────────┘
-                         │
-                    LOAD PHASE
-                ┌─────────────────┐
-                │load_to_database │
-                │ (SQLite)        │
-                └─────────────────┘
-                         │
-                 REPORTING PHASE
-                ┌─────────────────┐
-                │generate_report  │
-                │ (TXT, CSV)      │
-                └─────────────────┘
-                         │
-               NOTIFICATION PHASE
-                ┌─────────────────┐
-                │send_email_      │
-                │notification     │
-                │ (HTML + Attach) │
-                └─────────────────┘
-```
+![image](img/ETL_process.drawio.png)
+
+
 
 ## Технический стек
 
