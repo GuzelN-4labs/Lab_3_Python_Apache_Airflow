@@ -38,10 +38,10 @@
 ### Общая схема системы
 
 
-<img width="458" height="402" alt="image" src="https://github.com/user-attachments/assets/cd04b347-37a9-42a3-ae3b-52703e0c8d3b" />
+<img width="600" height="502" alt="image" src="https://github.com/user-attachments/assets/cd04b347-37a9-42a3-ae3b-52703e0c8d3b" />
 
 <br>
-<img width="450" height="387" alt="image" src="https://github.com/user-attachments/assets/8eba2b7a-f0da-4313-a485-361a46952d66" />
+<img width="600" height="502" alt="image" src="https://github.com/user-attachments/assets/8eba2b7a-f0da-4313-a485-361a46952d66" />
 
 
 ```
